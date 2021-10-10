@@ -20,7 +20,7 @@ i <- NULL
 
 ## Write a short comment describing this function
 # Just change all the "mean" in example into "inverse" and "numeric" into "matrix"
-# Also rename the object
+# Also rename the objects
 
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
