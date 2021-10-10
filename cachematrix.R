@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# Create a special matrix
 makeCacheMatrix <- function(x = matrix()) {
 i <- NULL
   set <- function(y) {
@@ -17,11 +17,10 @@ i <- NULL
        getinverse = getinverse)
 }
 
-
-## Write a short comment describing this function
 # Just change all the "mean" in example into "inverse" and "numeric" into "matrix"
 # Also rename the objects
 
+#inverse the special matrix
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
   if(!is.null(i)) {
